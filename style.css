@@ -1,0 +1,182 @@
+ul {
+  list-style: none;   
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    color: red;
+}
+
+/* Main Menu Design */
+nav ul {
+    display: table;
+    height: 70px;
+    background-color: #630606;
+}
+nav ul li {
+    display: table-cell;
+    vertical-align: middle;
+    width: 1%;
+    color: #fff;
+    font-size: 18px;
+}
+nav ul li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.parent-menu {
+    position: relative;
+}
+.parent-menu:hover > ul.submenu {
+    display: block;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    background-color:#aaa; 
+    padding: 15px;
+    margin-top: 20px;
+    z-index: 1;
+
+
+}
+.submenu li {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+}
+.submenu li:last-child{
+    border-bottom: none;
+}
+.submenu li a{
+    color: #630606;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+/* Admin Page design */
+#admin {
+    height: 100vh;
+    background-color: #ddd;
+}
+#admin .header {
+    padding-top: 100px;
+}
+#admin .header h2 {
+    position: relative;
+    text-align: center;
+}
+#admin .op{
+    padding-top: 50px;
+    text-align: center;
+}
+#admin .btn {
+    display: inline-block;
+    padding: 20px;
+    background-color: #630606;
+    color: #fff;
+    font-weight: bold;
+    margin: 30px;
+}
+
+#add_imgs .form {
+    height: 200px;
+    width: 100%;
+    display: table;
+    text-align: center;
+}
+#add_imgs .form-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+#add_imgs .form-content .text-field{
+    width: 300px;
+}
+
+#add_rep .form{
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+#add_rep .form .form-content{
+    text-align: center;
+    display: inline-block;
+    width: 500px;
+}
+#add_rep input, #add_rep select {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#add_rep .checkbox {
+    display: inline;
+}
+#add_rep .checkbox input {
+    text-align: left;
+    width: 10%;
+    display: inline;
+
+}
+
+
+.datebox {
+    position: relative;
+}
+
+.box{
+    position: relative;
+    background-color: #ddd;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 10px;
+}
+.box p {
+    margin: 3px;
+} 
+.box::after{
+    clear: both;
+}
+.box a {
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.add_post_form {
+    margin-top: 100px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+.add_post_form input, .add_post_form textarea, .add_post_form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+.save{
+    margin-top: 60px;
+}
+.dwn_btn {
+    display: inline;
+    padding: 20px;
+    background-color: #aaa;
+    color: red;
+}

@@ -1,0 +1,1 @@
+CREATE TABLE `tracksheet`.`volunteers` ( `id_no` VARCHAR(50) NOT NULL , `name` VARCHAR(50) NOT NULL , `s_d_w_o` VARCHAR(50) NOT NULL , `dob` DATE NOT NULL , `occupation` VARCHAR(60) NOT NULL , `area` VARCHAR(80) NOT NULL ) ENGINE = InnoDB;
